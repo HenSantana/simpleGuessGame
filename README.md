@@ -1,2 +1,2 @@
 # simpleGuessGame
-Simple guess game for learning puposes
+Simple guess game for learning purposes
