@@ -6,7 +6,7 @@ import random
 #Interacting with the user
 print("Hi. What is your name?")
 name = input()
-chat = "Nice to meet you {}. I am Charles_X and this is a simple guees number game. Enjoy it. :)"
+chat = "Nice to meet you {}. I am Charles_X and this is a simple guess number game. Enjoy it. :)"
 print(chat.format(name))
 
 count = 0
@@ -52,7 +52,7 @@ while not found:
         errors = errors + 1
         try:
             guess = int(input("Your guess: "))
-            if (guess < minNumber) | (guess > 100):
+            if (guess < minNumber) | (guess > maxNumber):
                 information = "     INFO: Remember between {} and {}!"
                 print(information.format(minNumber, maxNumber))
             if guess == number:
